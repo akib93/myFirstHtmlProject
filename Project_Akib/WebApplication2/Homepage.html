@@ -1,0 +1,437 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    <title>IDB-BISEW</title>
+
+    <link href="HomePageStyle.css" rel="stylesheet" />
+    <script src="Chat.js"></script>
+    <link href="w3.css" rel="stylesheet" />
+
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: #ddd;
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+
+        .home:hover {
+            background-color: aqua;
+        }
+
+        .dropdown:hover {
+            background-color: aquamarine;
+        }
+
+
+        .Vocational {
+            position: relative;
+            display: inline-block;
+        }
+
+        .Vocational-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .Vocational-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .Vocational-content a:hover {
+                background-color: #ddd;
+            }
+
+        .Vocational:hover .Vocational-content {
+            display: block;
+        }
+
+        .Vocational:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+
+        .Vocational:hover {
+            background-color: aquamarine;
+        }
+        .Notice {
+            position: relative;
+            display: inline-block;
+        }
+
+        .Notice-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .Notice-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+                .Notice-content a:hover {
+                    background-color: #ddd;
+                }
+
+        .Notice:hover .Notice-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+
+        .Notice:hover {
+            background-color: aquamarine;
+        }
+      .TrainingCourses {
+            position: relative;
+            display: inline-block;
+      }
+
+        .TrainingCourses-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .TrainingCourses-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+                .TrainingCourses-content a:hover {
+                    background-color: #ddd;
+                }
+
+        .TrainingCourses:hover .TrainingCourses-content {
+            display: block;
+        }
+
+        .TrainingCourses:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+
+        .TrainingCourses:hover {
+            background-color: aquamarine;
+        }
+
+        #name:hover {
+            background-color: darkblue;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <div id="container">
+
+        <div id="header" style="height:200px; width:100%; background-color:mediumslateblue">
+            <label id="name" style="height:500px;width:100% ;color:white;font-size:40px;">
+                IDB-BISEW
+            </label>
+            <label style="height:300px;width:100% ;color:white;font-size:25px">
+                <br />
+               Islamic Development Bank-Bangladesh Islamic Solidarity Educational Wakf
+            </label>
+
+            <marquee style="color:black">IDB Bhaban (4th Floor), E/8-A, Rokeya Sharani, Sher-e-Bangla Nagar, Dhaka-1207, Bangladesh, Phone: +880 2 9183006, Fax: +880 2 9183001 - 2, Email: idbb@idb-bisew.org</marquee>
+
+            <form style="padding-left:650px; ">
+                <input type="text" placeholder="Search..." required style="width:50%">
+                <input type="button" value="Search">
+            </form><br />
+
+            <div style="margin-left:800px">
+              <div style="float:left">
+                    <a href="http://www.facebook.com">
+                        <img style="height:35px;width:35px;" src="Images/69407.png" />
+                    </a>
+                </div>
+                <div style="float:left">
+                    <a href="https://twitter.com">
+                        <img style="height:35px;width:35px;" src="Images/twitter-black-round-icon.png" />
+                    </a>
+                </div>
+            </div>
+      </div>
+        <div class="menue" style="height:50px; width:100%; background-color:lavender">
+            <div style="height:15px">
+
+            </div>
+            <div class="home" style="float:left;">
+
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <a href="Homepage.html" style="font-size:20px; padding-left:5px;color:black; text-decoration:none"><i class="fa fa-fw fa-home"></i>Home</a>
+            </div>
+
+           <div style="float:left;  margin-left:50px">
+                <div>
+                    <div class="dropdown">
+                        <label style="font-size:20px">IT Schoolarship Project</label>
+                        <div class="dropdown-content">
+                            <a href="HtmlPage1.html">Project Objective</a>
+                            <a href="HtmlPage1.html">Project Overview</a>
+                            <a href="photo.html">Photo Gallery</a>
+                            <a href="HtmlPage1.html">Training and Assement</a>
+                            <a href="HtmlPage1.html">Training Courses</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div style="float:left;  margin-left:50px">
+                <div>
+                    <div class="Vocational">
+                        <label style="font-size:20px"><i class="fa fa-plus-square"></i>Vocational Training</label>
+                        <div class="Vocational-content">
+                            <a href="HtmlPage1.html">Project Objective</a>
+                            <a href="HtmlPage1.html">Project Overview</a>
+                            <a href="photo.html">Photo Gallery</a>
+                            <a href="HtmlPage1.html">Training and Assement</a>
+                            <a href="HtmlPage1.html">Training Courses</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="float:left;  margin-left:50px">
+                <div>
+                    <div class="TrainingCourses">
+                        <label style="font-size:20px"><i class="fa fa-graduation-cap"></i>Training Courses</label>
+                        <div class="TrainingCourses-content">
+                            <a href="Courses.html">IT Schoolarship Course</a>
+                            <a href="vacational.html">Vocational Course</a>
+                            <a href="#Courses.html">Trade Course Under Madrasha</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           <div style="float:left;  margin-left:50px">
+                <div>
+                    <div class="Notice">
+
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                        <label style="font-size:20px"><i class="fa fa-envelope"></i>Notice</label>
+                        
+                        <div class="Notice-content">
+                            <a href="Notice.html">All Notice</a>
+                            <a href="#">Media News</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+           <div id="paragragh" style="height:500px; width:880px; padding-top:2px; padding-left:20px;">
+
+                  <p>
+                   <img src="Images/thXJ3WX1GT.jpg" />
+                    Welcome to IDB-BISEW
+                    Islamic Development Bank-Bangladesh Islamic Solidarity Educational Wakf (IDB-BISEW) was established following an agreement between the Islamic Development Bank, Jeddah, Saudi Arabia, and the Government of Bangladesh. IDB-BISEW undertakes funding, formulating and implementing of projects in the areas of education, human resource development and institutional strengthening.
+                    The intent is to transform the large population into productive workforce by strengthening their technical capability to use existing and emerging technologies resulting in sustainable economic growth and equality.
+
+                    Apply for IT Scholarship  Apply for VocationalTSP Enlistment for ITP
+
+
+                  </p>
+
+           </div>
+
+       <div id="media" style="background-color:peru;height:400px; width:100%; ">
+
+            <label style="height:100px;font-size:40px;width:100% ;color:darkblue;table-layout:auto;padding-left:200px;text-align:center">
+                Success Story
+            </label><br /><br />
+
+            <video controls="controls" style="float:left; height:200px;">
+                <source src="Media/Interview of Shamim Ashrafi.mp4" type="video/mp4" />
+            </video>
+            <video controls="controls" style="float:left; height:200px;">
+                <source src="Media/One.mp4" type="video/mp4" />
+            </video>
+
+             <div class="chat-popup" id="myForm" style="padding-left:650px;font-size:5px;background-color:peru">
+                <form style="background-color:peru" action="/action_page.php" class="form-container">
+                    <h1 style="color:darkblue;font-size:10px; text-align:center">Chat</h1>
+
+                    <label for="msg" style="color:darkblue;font-size:10px"><b>Message</b></label>
+                    <textarea style="height:20px;width:auto;" placeholder="Type message.." name="msg" required></textarea>
+
+                    <button type="submit" class="btn" style="width:auto;height:2px;color:mediumturquoise">Send</button>
+                    <button type="button" class="btn cancel"style="width:auto;height:2px;background-color:mediumturquoise;" onclick="closeForm()">Close</button>
+                </form>
+            </div>
+
+
+
+       </div>
+
+       <div style="height:400px; width:100%; background-color:mediumslateblue">
+            <div id="div1">
+
+                <div class="column">
+
+
+                    <h2>IT Scholarship Project </h2>
+                    <img src="Images/SliderImades/thXJ3WX1GT.jpg" class="mySlides" style="height:100px; width:150px" />
+                    <img src="Images/SliderImades/dip1.jpg" class="mySlides" style="width:150px; height:100px;" />
+                    <img src="Images/SliderImades/th2KNY1143.jpg" class="mySlides" style="width:150px; height:100px;" />
+                    <img src="Images/SliderImades/thXJ3WX1GT.jpg" class="mySlides" style="width:150px; height:100px;" />
+
+                    <p>
+                        The IDB-BISEW IT Scholarship Project was launched in 2003 with the aim of enhancing the employment prospects of meritorious Muslim youths who come from financially disadvantaged background.
+
+                        <script>
+                            var myIndex = 0;
+                            carousel();
+                            function carousel() {
+                                var i;
+                                var x = document.getElementsByClassName("mySlides");
+                                for (i = 0; i < x.length; i++) {
+                                    x[i].style.display = "none";
+                                }
+                                myIndex++;
+                                if (myIndex > x.length) { myIndex = 1 }
+                                x[myIndex - 1].style.display = "block";
+                                setTimeout(carousel, 2000); // Change image every 2 seconds
+                            }
+                        </script>
+
+
+                </div>
+
+            </div>
+
+            <div id="div2" style="background-color:antiquewhite">
+                <div class="column2">
+
+                    <h2>Vocational Training</h2>
+                    <img src="Images/SliderImades/R20_VTP.png" class="mySlides" style="height:100px; width:150px" />
+                    <img src="Images/SliderImades/dip1.jpg" class="mySlides" style="width:150px; height:100px;" />
+                    <img src="Images/SliderImades/th2KNY1143.jpg" class="mySlides" style="width:150px; height:100px;" />
+                    <img src="Images/SliderImades/thXJ3WX1GT.jpg" class="mySlides" style="width:150px; height:100px;" />
+
+
+                    <p>
+                        IDB-BISEW is targeting a particularly neglected and vulnerable section of the student population of the country. These are the students of underprivileged background who fail to progress from high school to the HSC levels.
+
+                        <script>
+                            var myIndex = 0;
+                            carousel();
+                            function carousel() {
+                                var i;
+                                var x = document.getElementsByClassName("mySlides");
+                                for (i = 0; i < x.length; i++) {
+                                    x[i].style.display = "none";
+                                }
+                                myIndex++;
+                                if (myIndex > x.length) { myIndex = 1 }
+                                x[myIndex - 1].style.display = "block";
+                                setTimeout(carousel, 1000); // Change image every 2 seconds
+                            }
+                        </script>
+
+
+                </div>
+
+            </div>
+
+            <div id="div3">
+                <div class="column3">
+
+                    <h2>Madrasah Project</h2>
+                    <img src="Images/SliderImades/dip1.jpg" class="mySlides" style="height:100px; width:150px" />
+                    <img src="Images/SliderImades/R20_VTP.png" class="mySlides" style="width:150px; height:100px;" />
+                    <img src="Images/SliderImades/th2KNY1143.jpg" class="mySlides" style="width:150px; height:100px;" />
+                    <img src="Images/SliderImades/thXJ3WX1GT.jpg" class="mySlides" style="width:150px; height:100px;" />
+
+
+                    <p>
+                        IDB-BISEW has taken up the initiative of providing vocational education and training to the students of selected Madrasahs by exposing them to vocational education/training in the trades of their choice.
+
+                        <script>
+                            var myIndex = 0;
+                            carousel();
+                            function carousel() {
+                                var i;
+                                var x = document.getElementsByClassName("mySlides");
+                                for (i = 0; i < x.length; i++) {
+                                    x[i].style.display = "none";
+                                }
+                                myIndex++;
+                                if (myIndex > x.length) { myIndex = 1 }
+                                x[myIndex - 1].style.display = "block";
+                                setTimeout(carousel, 2000); // Change image every 2 seconds
+                            }
+                        </script>
+
+
+                </div>
+
+            </div>
+
+            </div>
+
+            <div id="footer" style="height:auto;background-color:forestgreen;width:100% ">
+                
+                   <label style="color:white;">
+                        IDB Bhaban (4th Floor), E/8-A, Rokeya Sharani, Sher-e-Bangla Nagar, Dhaka-1207, Bangladesh, Phone: +880 2 9183006, Fax: +880 2 9183001 - 2, Email: idbb@idb-bisew.org
+                    </label>
+                
+            </div>
+
+     </div>
+    
+</body>
+</html>

@@ -1,0 +1,392 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="HomePageStyle.css" rel="stylesheet" />
+
+
+    <style>
+
+
+
+
+
+
+       
+
+
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: #ddd;
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+
+        .home:hover {
+            background-color: aquamarine;
+        }
+
+        .dropdown:hover {
+            background-color: aquamarine;
+        }
+
+
+        .Vocational {
+            position: relative;
+            display: inline-block;
+        }
+
+        .Vocational-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .Vocational-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .Vocational-content:hover {
+                background-color: #ddd;
+            }
+
+        .Vocational:hover .Vocational-content {
+            display: block;
+        }
+
+        .Vocational:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+
+        .Vocational:hover {
+            background-color: aquamarine;
+        }
+
+
+
+        .Notice {
+            position: relative;
+            display: inline-block;
+        }
+
+        .Notice-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .Notice-content a {
+                color: black;
+                padding: 10px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+                .Notice-content a:hover {
+                    background-color: #ddd;
+                }
+
+        .Notice:hover .Notice-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+
+        .Notice:hover {
+            background-color: aquamarine;
+        }
+
+
+
+
+        .TrainingCourses {
+            position: relative;
+            display: inline-block;
+            background-color: antiquewhite;
+        }
+
+        .TrainingCourses-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .TrainingCourses-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+                .TrainingCourses-content a:hover {
+                    background-color: #ddd;
+                }
+
+        .TrainingCourses:hover .TrainingCourses-content {
+            display: block;
+        }
+
+        .TrainingCourses:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+
+        .TrainingCourses:hover {
+            background-color: aquamarine;
+        }
+
+        #name:hover {
+            background-color: darkblue;
+        }
+  
+        .TrainingCourse {
+            position: relative;
+            display: inline-block;
+            background-color: darkgrey;
+        }
+
+        .TrainingCourse-content {
+            display: contents;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 560px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .TrainingCourse-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+                .TrainingCourse-content a:hover {
+                    background-color: #ddd;
+                }
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <div id="container">
+
+        <div id="header" style="height:auto; width:100%; background-color:mediumslateblue">
+            <label id="name" style="height:500px;width:100% ;color:white;font-size:40px;">
+                IDB-BISEW
+            </label>
+            <label style="height:300px;width:100% ;color:white;font-size:25px">
+                <br />
+
+                Islamic Development Bank-Bangladesh Islamic Solidarity Educational Wakf
+            </label>
+
+            <form style="padding-left:650px;">
+                <input type="text" placeholder="Search..." required style="width:50%">
+                <input type="button" value="Search">
+            </form><br />
+
+            <div style="margin-left:800px">
+                <div style="float:left">
+                    <a href="http://www.facebook.com">
+                        <img style="height:35px;width:35px;" src="Images/69407.png" />
+                    </a>
+                </div>
+                <div style="float:left">
+                    <a href="https://twitter.com">
+                        <img style="height:35px;width:35px;" src="Images/twitter-black-round-icon.png" />
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="menue" style="height:50px; width:100%; background-color:lavender">
+
+            <div class="home" style="float:left;">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                <a href="Homepage.html" style="font-size:20px; padding-left:5px;color:black; text-decoration:none"><i class="fa fa-fw fa-home"></i>Home</a>
+            </div>
+
+            <div style="float:left;margin-left:50px">
+                <div>
+                    <div class="dropdown">
+                        <label style="font-size:20px">IT Schoolarship Project</label>
+                        <div class="dropdown-content">
+                            <a href="HtmlPage1.html">Project Objective</a>
+                            <a href="HtmlPage1.html">Project Overview</a>
+                            <a href="#">Photo Gallery</a>
+                            <a href="HtmlPage1.html">Training and Assement</a>
+                            <a href="HtmlPage1.html">Training Courses</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div style="float:left;  margin-left:50px">
+                <div>
+                    <div class="Vocational">
+                        <label style="font-size:20px">Vocational Training</label>
+                        <div class="Vocational-content">
+                            <a href="HtmlPage1.html">Project Objective</a>
+                            <a href="HtmlPage1.html">Project Overview</a>
+                            <a href="#">Photo Gallery</a>
+                            <a href="HtmlPage1.html">Training and Assement</a>
+                            <a href="HtmlPage1.html">Training Courses</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="float:left;  margin-left:50px">
+                <div>
+                    <div class="TrainingCourses">
+                        <label style="font-size:20px">Training Courses</label>
+                        <div class="TrainingCourses-content">
+                            <a href="Courses.html">IT Schoolarship Course</a>
+                            <a href="vacational.html">Vocational Course</a>
+                            <a href="#Courses.html">Trade Course Under Madrasha</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div style="float:left;  margin-left:50px">
+                <div>
+                    <div class="Notice">
+                       
+                        <label style="font-size:20px"><i class="fa fa-envelope"></i>Notice</label>
+                        <div class="Notice-content">
+                            <a href="Notice.html">All Notice</a>
+                            <a href="#">Media News</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div style="float:left; ">
+            <div>
+                <div class="TrainingCourse">
+                    <label style="font-size:40px;color:darkblue;">Training Courses</label><br /><br /><br /><br />
+                    <div class="TrainingCourse-content">
+                        <a href="#">Computer Fundamental</a>
+                        <a href="#">Database Design and Development</a>
+                        <a href="#">Enterprise Systems Analysis and Design-J2EE</a>
+                        <a href="#">Enterprise Systeam Analysis And Design</a>
+                        <a href="#">Networking Tecnologics</a>
+                        <a href="#">Web Application Development with PHP</a><br /><br />
+                        <a href="Duration.html" style="height:100px;font-size:50px;color:darkblue">Course Details</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div style="margin-left:50px;">
+                <div style="height:auto;margin-top:-530px;background-color:red;margin-left:280px;width:100%" />
+
+                <div id="menu" style="height:auto; width: 100%">
+                    <div class="w3-content w3-section" style="width:595px;height:auto; float:left; border:2px solid green">
+                        <img src="Images/SliderImades/1-4fac83467069c.png" class="mySlides" style="width:100%; height:auto;" />
+                        <img src="Images/SliderImades/1_E4CO83SmCCrvRrge7U3Ahw.jpeg" class="mySlides" style="width:100%; height:auto;" />
+                       
+                        <img src="Images/SliderImades/20171116154306.jpg" class="mySlides" style="width:100%; height:auto;" />
+                        <img src="Images/SliderImades/1319770_1b84_5.jpg" class="mySlides" style="width:100%; height:auto;" />
+                    </div>
+                    <script>
+                        var myIndex = 0;
+                         carousel();
+                          function carousel() {
+                                 var x = document.getElementsByClassName("mySlides");
+                                    for (i = 0; i < x.length; i++) {
+                                      x[i].style.display = "none";
+                                    }
+                                         myIndex++;
+                                            if (myIndex > x.length) { myIndex = 1 }
+                                    x[myIndex - 1].style.display = "block";
+                                   setTimeout(carousel, 2000); // Change image every 2 seconds
+                          }                 
+                    </script>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+       
+
+       
+
+   
+
+   
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
